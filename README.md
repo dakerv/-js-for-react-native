@@ -10,5 +10,6 @@ Each element in my string array had a corresponding number in my number array.
 I made elements of the string that corresponded to an even number capitalized
 and the ones that corresponded to odd numbers, I left in lowercase.
 
-For task three, 
+For task three, I exported my formatArrayStrings from arrayManipulation file.
+Then I 
 
