@@ -1,15 +1,30 @@
-//TASK THREE (3)
+// Test 3
 
-function createUserProfiles (name, modifiedName) {
-    return 
-    const profiles = name.map ((name, index) => ({
-        originalName: name, 
-        modifiedName: modifiedName [index],
-        id: index + 1
-    }));
+const { formatArrayStrings }  = require ("./arrayManipulation.js")
 
-    return profiles;
-    
+  function createUserProfiles (names, modNames) {
+  
+  let count = 1;
+  return (
+    names.map ((name, index) => {
+      return (
+        { 
+          originalName: name,
+          modifiedName: modNames [index],
+
+          id: count++
+        }
+      )
+    })
+)
 }
 
-module.exports = createUserProfiles;
+//Test
+const names = ["Ama", "Kofi", "Kweku", "Yaw"];
+const numbers = [1, 2, 3, 4];
+const modifiedName = formatArrayStrings (names, numbers);
+
+const userProfiles =
+createUserProfiles (names, modifiedName);
+
+console.log (userProfiles);

@@ -37,9 +37,12 @@ function formatArrayStrings (stringArray, numberArray) {
 }
 
 //Test
-const stringsArray = ['cat', 'dog', 'horse', 'rat'];
+const stringsArray = ['cat', 'dog', 'horse', '3'];
 const numbersArray = [1, 2, 3, 4];
 
-const modifiedStrings = formatArrayStrings(stringsArray, numbersArray);
+const modifiedArray = formatArrayStrings(stringsArray, numbersArray);
 
-console.log(modifiedStrings);
+console.log(modifiedArray)
+
+module.exports = {formatArrayStrings};
+
