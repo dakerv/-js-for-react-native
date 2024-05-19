@@ -1,3 +1,5 @@
+11253946
+
 For task one, I implemented a function that helped 
 to take an array of numbers as an argument. 
 I used an example to show the functionality of my code.
@@ -13,5 +15,5 @@ and the ones that corresponded to odd numbers, I left in lowercase.
 For task three, I exported my formatArrayStrings function from arrayManipulation file.
 The imported function repeated the same action from Task two, where names corresponding to even
 numbers are capitalized and names corresponding to odd numbers, remain in lowercase. I then implemented
-a test to show the functionality of my code.
+a test to show the functionality of my code. My code returns an array of the objects, with auto-increment.
 
