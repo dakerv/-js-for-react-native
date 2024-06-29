@@ -1,4 +1,4 @@
-11253946
+
 
 For task one, I implemented a function that helped 
 to take an array of numbers as an argument. 
